@@ -1,0 +1,675 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;*/
+    font-size: 1.5em;
+    background-image: url('../img/swirl.png');
+    text-shadow: none;
+}
+section{
+    padding: 80px 0px 20px;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+h3 a{
+    color: #ffc107;
+}
+h3 a:hover{
+    color: #ffeb3b;
+}
+.topDate{
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.jadualMakmal{
+    text-align: center;
+}
+.dateTime{
+    display: inline-block;
+    margin-right:10px;
+}
+.logo{
+    text-align: center;
+    background: rgba(8, 31, 33, 0.07);
+    padding: 20px;
+}
+.namaJbtn{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.logoName{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 20px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+.jata{
+    display: inline-block;
+    vertical-align: middle;
+}
+.address{
+    font-size: 1em;
+}
+.hrLine{
+    padding: 15px;
+    border-bottom: 3px solid #495565;
+}
+.skyBg{
+    background-image: url('../img/sky-bg.jpg');
+    background-size: cover;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.caption{
+    border: 2px solid #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+}
+.caption:hover{
+    background-color: #484b5a;
+}
+.warga{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.imgJpkn{
+    width: 60%;
+    padding-left: 10px;
+}
+.imgMpt{
+    margin: 10px  0px;
+}
+.detailStaff{
+    width: 39%;
+}
+.leftTab{
+    padding: 0px 10px 0px;
+}
+.rightTab{
+    height: 100%;
+    text-align: center;
+}
+.close{
+    color: #fff;
+}
+.modal-header{
+    background-color: rgba(0, 0, 0, 0.84);
+    color: #fff;
+}
+.modal-title{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.modal-body img{
+    width: 100%;
+    background-color: rgba(97, 90, 92, 0.43);
+}
+.modal-content{
+    min-height: 600px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #333;
+    background-image: url('../img/swirl.png');
+}
+@media screen and (min-width: 768px) {
+
+    .modal-dialog  {
+        width:1100px;
+        min-height: 1000px;
+    }
+
+}
+.objModal, .fungsiModal, .profilModal{
+    text-align: left;
+}
+.animatedText{
+    text-align: center;
+}
+.animatedText p{
+    padding-bottom: 30px;
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.whiteText{
+    color: #fff;
+}
+.bold{
+    font-weight: bold;
+}
+.headerTitle{
+    font-size: 3em;
+    color: #444;
+}
+.centerTitle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text-slanted{
+    border: 2px solid #495565;
+    color: #495565;
+}
+.button-slanted, .text-slanted {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+}
+.button-slanted:hover {
+    width: 170px;
+}
+.btn-lab{
+    padding: 15px;
+    color: #fff;
+    background-color: #495565;
+}
+.btn-direktori{
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+    text-align: center;
+    color: #495565;
+    border: 2px solid #495565;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-lab:hover{
+    padding: 15px;
+    color: #495565;
+    background-color: transparent;
+    border: 3px solid #495565;
+}
+.flexImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexImage{
+    padding: 10px;
+    background-color: #96a2ae;
+    color: #fff;
+}
+.flexEvent, .flexContact{
+    display: flex;
+}
+.flexLeft{
+    flex: 1;
+}
+.flexRight{
+    flex: 3;
+    padding-left: 20px;
+}
+.superText{
+    font-size: 5em;
+}
+.bigNumber{
+    font-size: 3em;
+}
+.smallNumber, .lowText{
+    font-size: 1.5em;
+}
+/* BS Search Input*/
+#myInput, #myInput2, #myInput3 {
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 3px solid #607D8B;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+#myTable, #myTable2, #myTable3 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td, #myTable2 th, #myTable2 td, #myTable3 th, #myTable3 td{
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr, #myTable2 tr, #myTable3 tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover, #myTable2 tr.header, #myTable2 tr:hover, #myTable3 tr.header, #myTable3 tr:hover {
+  background-color: #f1f1f1;
+}
+/* BS Collapsible*/
+.panel-default>.panel-heading{
+    background-color: #495565;
+    color: #fff;
+    border-radius: 0px;
+}
+/* BS Grid */
+@media (min-width: 768px) {
+    .col-sm-3{
+        padding: 0px 5px 0px 0px;
+    }
+}
+@media (max-width: 768px) {
+    .col-sm-3{
+        padding: 10px 0px;
+    }
+}
+/* BS Cards*/
+.card{
+    padding: 10px 0px;
+    border-bottom: 2px solid ;
+}
+.card:first-child{
+    border-top: 2px solid ;
+}
+.card-title{
+    color: #495565;
+}
+/* BS Tab Navpills*/
+.tab-content{
+    position: relative;
+    height: 350px;
+    overflow-y: scroll;
+}
+.nav-pills{
+    padding: 15px 10px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #495565;
+    color: #fff;
+}
+.nav-pills>li>a{
+    color: #495565;
+    border: 2px solid #495565;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    color: #495565;
+    background-color: #fff;
+}
+
+/*BS Navigation Bar*/
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: transparent;
+}
+.navbar{
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-default{
+    background-color: #2f353c;
+    border-bottom: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+.besideCaro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*/* BS Slider Carousel edit slide img size here*/
+.carousel{
+    padding-right: 30px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    /*width: 70%;*/
+    margin: auto;
+}
+a.left.carousel-control {
+    background-image: none;
+}
+a.right.carousel-control {
+    background-image: none;
+}
+.flexCaror{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+/*this spinner class use to animate page loader*/
+.spinner {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+}
+
+.spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: #ec293b;
+
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    } 40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+
+/* Other pages */
+
+.headerTitle2{
+    color: #ddd;
+}
+.mpt{
+    background-image: url('../img/MPT.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutUS{
+    font-size: 17px;
+    padding: 80px 0px 80px;
+}
+.info{
+    margin: 20px 0px;
+    font-size: x-large;
+}
+.alert{
+    color: #495565;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+}
+.infoSt{
+    padding: 50px 0px;
+}
+.organizationChart{
+    display: flex;
+    flex-wrap: wrap;
+}
+.staffs{
+    width: 49%;
+    margin-top: 15px;
+    margin-right: 1%;
+    padding: 20px;
+    background-color: #96a2ae;
+    text-align: left;
+}
+.imgStaff{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    max-height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgStaff img{
+    width: 100%;
+}
+.staffInfo{
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: center;
+    font-size: 16px;
+}
+.staffName{
+    color: #fff;
+    font-size: 18px;
+}
+.bahagian{
+    color: #3b5d7f;
+}
+.visiMisi{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px 5px;
+}
+.btnVisi{
+    width: 100%;
+    margin: 20px 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: #495565;
+    background-color: transparent;
+    border: 2px solid #495565;
+}
+.btnVisi:hover{
+    color:#fff;
+    background-color: #495565;
+    cursor: pointer;
+
+}
+.paddingBottom{
+    padding-bottom: 60px;
+}
+.objective{
+    background-color: #2f353c;
+    color: white;
+}
+.fungsi{
+    padding: 30px 0px;
+    font-weight: bold;
+}
+.fungsiContent{
+    font-size: 1.1em;
+}
+
+.officeName{
+    color: #96a2ae;
+}
+.deptName{
+    padding-bottom: 10px;
+    color: #4f5f6f;
+    font-weight: bold;
+}
+.backToHome{
+    position: fixed;
+    margin: 50px 30px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ebeded;
+
+}
+.backToTop{
+    position: fixed;
+    bottom: 120px;
+    left: 30px;
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(235, 237, 237, 0.92);
+    z-index: 999;
+}
+.fa{
+    padding-right: 5px;
+    color: #96a2ae;
+}
+.fa-home{
+    color: #495565;
+}
+.fa-home:hover{
+    color: #99a4b3;
+}
+.fa-2x{
+    vertical-align: middle;
+    width: 40px;
+}
+.centerLeft{
+    /*padding: 0px 300px;*/
+}
+.darkGreyBg{
+    background-color: #eee;
+}
+.darkBg{
+    background-color: #25282f;
+    color: #eee;
+}
+.containerBox{
+    padding: 50px 0px 0px;
+    text-align: justify;
+}
+.padTop{
+    padding-top: 50px;
+}
+.padLeft{
+    padding: 10px 30px;
+}
+.makmalImg{
+    width: 100%;
+}
+.elastislide-wrapper{
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+}
+.contentPad{
+    padding: 25px 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #25282f;
+}
+.itemFooter{
+    display: inline-block;
+    padding: 0px 8px;
+    border-right: 2px solid #ccc;
+    color: #fff;
+}
+a.itemFooter:hover{
+    color: #e0ce4c;
+}
+a.itemFooter{
+    text-decoration: none;
+}
+.itemFooter:last-child{
+    border-right: 0px;
+}
+.answer{
+    color: #286090;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.rightFooter{
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .borderTop{
+        border-top: 2px solid;
+    }
+    .borderLeft{
+        padding-top: 20px;
+        border-left: 2px solid;
+    }
+    .piagamPage{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .navbar-header{
+        display: none;
+    }
+}
+
+/* Styling for Mobile Only*/
+@media (max-width: 768px) {
+    .flexCaror{
+        display: block;
+        margin: 0px;
+    }
+    .imgRight{
+        width: 100%;
+    }
+    .flexLeft{
+        display: none;
+    }
+    .animatedText p{
+        font-size: 0.9em;
+    }
+    .rightTab{
+        display: none;
+    }
+    .staffs{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .rightFooter{
+        display: none;
+    }
+    .caption{
+        margin: 0px 10px;
+    }
+    .carousel{
+        padding-right: 0px;
+    }
+    .visiMisi{
+        display: block;
+    }
+    .warga{
+        display: none;
+    }
+}
+@media (min-width: 1824px) {
+    .elastislide-wrapper.elastislide-horizontal{
+        text-align: center;
+    }
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        width: 70%;
+    }
+}

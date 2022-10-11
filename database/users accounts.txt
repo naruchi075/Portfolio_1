@@ -1,0 +1,31 @@
+JPKN SPBM user accounts
+
+1) SuperAdmin
+    superadmin@something.mail
+    SuperAdmin
+    1234
+   1:Admin
+
+2) dummyuser
+   user@something.mail
+   dummyuser
+   log1234
+   0:User
+
+3) Hamid hamzah
+    hamid@user.gmail.com
+    hamiduser
+    log1111
+   0: user
+
+4) user4
+    user4@something.com
+    user4
+    log4567
+0:user
+
+5) Manager admim
+    admin2@g.com
+    admin2
+    2222
+    2222
